@@ -1,0 +1,41 @@
+
+body{
+    background-color: lightcoral;
+    
+}
+
+.parent {
+    display: flex;
+    
+}
+.child {
+    flex: 1;
+    
+}
+
+.child.medio {
+    flex: 3  auto;
+    padding: 10px;
+    border-left: 5px solid lightgreen;
+    border-right: 5px solid lightgreen;
+    border-top: 5px solid lightseagreen;
+    border-bottom: 5px solid lightseagreen;
+    border-radius: 0.5rem;
+    background-color: lightcyan;
+}
+a, a:visited, a:hover, a:active {
+    color: burlywood;
+  }
+h1 {
+color: burlywood;
+}
+ul{
+    list-style-type:circle;
+}
+li {
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px;
+    color: lightgreen;
+
+}
